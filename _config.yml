@@ -1,26 +1,29 @@
-title: Keygin ERP Sync Pro
-email: soporte@hasselcode.com
-description: >- 
-  Documentación oficial del plugin de sincronización Keygin Sync Pro.
-  Incluye guías de instalación, configuración, API reference y changelog.
-baseurl: "/keygin-sync-pro-docs" 
-url: "https://hasselcode.github.io" 
-twitter_username: hasselcode
-github_username:  hasselcode
+title: Keygin Pro Docs
+description: Documentación oficial de Keygin ERP Sync Pro
 
-# Construcción
-markdown: kramdown
-theme: minima
-plugins:
- - jekyll-feed
- - jekyll-seo-tag
+theme: just-the-docs
 
-header_pages:
-  - instalacion.md
-  - configuracion.md
-  - api.md
-  - changelog.md
+just_the_docs:
+  custom_css:
+    - assets/css/custom.css
+  custom_js:
+    - assets/js/custom.js
 
-# Versión actual
-version: "1.0.1"
-ultima_actualizacion: "Febrero 2026"
+
+url: "https://hasselcode.github.io"
+baseurl: "/keygin-pro-docs"
+
+favicon_ico: "/assets/images/logo.png"
+
+search_enabled: true
+
+# Links arriba a la derecha
+aux_links:
+  "Keygin Pro Site Web":
+    - "https://hasselcode.com"
+
+# Footer
+footer_content: "© 2026 Hasselcode — Keygin ERP Sync Pro"
+
+# UI limpia como el demo oficial
+color_scheme: light

@@ -1,0 +1,329 @@
+/* ========================================
+   KEYGIN ERP SYNC PRO - ESTILOS PERSONALIZADOS
+   Versión: 1.0.1
+   ======================================== */
+
+/* ----------------------------------------
+   VARIABLES GLOBALES
+   ---------------------------------------- */
+:root {
+  --keygin-primary: #0a5cff;
+  --keygin-primary-light: #e8f0fe;
+  --keygin-secondary: #6c47ff;
+  --keygin-success: #0a8c4a;
+  --keygin-warning: #b45b0a;
+  --keygin-danger: #d92b2b;
+  --keygin-gray-100: #f5f7fa;
+  --keygin-gray-200: #eaeef2;
+  --keygin-gray-300: #d0d7de;
+  --keygin-gray-400: #8c959f;
+  --keygin-gray-500: #6e7781;
+  --keygin-gray-600: #57606a;
+  --keygin-gray-700: #424a53;
+  --keygin-gray-800: #2d333b;
+  --keygin-gray-900: #1c2128;
+  --keygin-border-radius: 6px;
+  --keygin-shadow-sm: 0 1px 3px rgba(0,0,0,0.05);
+  --keygin-shadow-md: 0 4px 6px -1px rgba(0,0,0,0.1);
+  --keygin-font-sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  --keygin-font-mono: 'SF Mono', 'Menlo', 'Monaco', 'Consolas', monospace;
+}
+
+/* ----------------------------------------
+   HEADER PERSONALIZADO
+   ---------------------------------------- */
+.site-header {
+  border-bottom: 2px solid var(--keygin-primary);
+}
+
+.site-title {
+  font-weight: 600;
+  color: var(--keygin-gray-900);
+}
+
+.site-title:hover {
+  color: var(--keygin-primary);
+}
+
+/* ----------------------------------------
+   NAVEGACIÓN SIDEBAR
+   ---------------------------------------- */
+.nav-list .nav-list-item .nav-list-link {
+  color: var(--keygin-gray-700);
+  border-radius: var(--keygin-border-radius);
+  padding: 0.5rem 0.75rem;
+  margin: 0.15rem 0;
+}
+
+.nav-list .nav-list-item .nav-list-link:hover {
+  background-color: var(--keygin-gray-100);
+  color: var(--keygin-primary);
+}
+
+.nav-list .nav-list-item .nav-list-link.active {
+  background-color: var(--keygin-primary-light);
+  color: var(--keygin-primary);
+  font-weight: 500;
+  border-left: 3px solid var(--keygin-primary);
+}
+
+/* ----------------------------------------
+   TIPOGRAFÍA PRINCIPAL
+   ---------------------------------------- */
+.main-content {
+  font-family: var(--keygin-font-sans);
+  line-height: 1.6;
+  color: var(--keygin-gray-800);
+}
+
+.main-content h1 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 2px solid var(--keygin-gray-200);
+  color: var(--keygin-gray-900);
+  letter-spacing: -0.02em;
+}
+
+.main-content h2 {
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  color: var(--keygin-gray-800);
+  letter-spacing: -0.01em;
+}
+
+.main-content h3 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-top: 1.5rem;
+  margin-bottom: 0.75rem;
+  color: var(--keygin-gray-700);
+}
+
+.main-content h4 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+  color: var(--keygin-gray-700);
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+}
+
+.main-content p {
+  margin-bottom: 1.25rem;
+  font-size: 1rem;
+}
+
+.main-content a {
+  color: var(--keygin-primary);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.main-content a:hover {
+  text-decoration: underline;
+}
+
+/* ----------------------------------------
+   TABLAS
+   ---------------------------------------- */
+.main-content table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5rem 0;
+  font-size: 0.95rem;
+  border: 1px solid var(--keygin-gray-200);
+  border-radius: var(--keygin-border-radius);
+  overflow: hidden;
+}
+
+.main-content thead {
+  background-color: var(--keygin-gray-100);
+  border-bottom: 2px solid var(--keygin-gray-300);
+}
+
+.main-content th {
+  padding: 0.75rem 1rem;
+  font-weight: 600;
+  text-align: left;
+  color: var(--keygin-gray-700);
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+}
+
+.main-content td {
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid var(--keygin-gray-200);
+  color: var(--keygin-gray-700);
+}
+
+.main-content tr:last-child td {
+  border-bottom: none;
+}
+
+.main-content tbody tr:hover {
+  background-color: var(--keygin-gray-100);
+}
+
+/* ----------------------------------------
+   BLOQUES DE CÓDIGO
+   ---------------------------------------- */
+.main-content pre {
+  background-color: var(--keygin-gray-900);
+  color: #e6edf3;
+  padding: 1rem;
+  border-radius: var(--keygin-border-radius);
+  overflow-x: auto;
+  font-family: var(--keygin-font-mono);
+  font-size: 0.9rem;
+  line-height: 1.5;
+  margin: 1.5rem 0;
+  border: 1px solid var(--keygin-gray-700);
+}
+
+.main-content code {
+  font-family: var(--keygin-font-mono);
+  font-size: 0.9em;
+  padding: 0.2em 0.4em;
+  background-color: var(--keygin-gray-100);
+  border-radius: 3px;
+  color: var(--keygin-gray-800);
+}
+
+.main-content pre code {
+  padding: 0;
+  background-color: transparent;
+  color: inherit;
+  font-size: 0.9rem;
+  border: none;
+}
+
+/* ----------------------------------------
+   BLOCKS DE NOTAS (para troubleshooting, etc)
+   ---------------------------------------- */
+.keygin-note {
+  padding: 1rem 1.5rem;
+  margin: 1.5rem 0;
+  border-left: 4px solid var(--keygin-primary);
+  background-color: var(--keygin-gray-100);
+  border-radius: 0 var(--keygin-border-radius) var(--keygin-border-radius) 0;
+}
+
+.keygin-note.warning {
+  border-left-color: var(--keygin-warning);
+  background-color: #fff4e5;
+}
+
+.keygin-note.danger {
+  border-left-color: var(--keygin-danger);
+  background-color: #ffe5e5;
+}
+
+.keygin-note.success {
+  border-left-color: var(--keygin-success);
+  background-color: #e5ffe5;
+}
+
+.keygin-note p:last-child {
+  margin-bottom: 0;
+}
+
+.keygin-note strong:first-child {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+}
+
+/* ----------------------------------------
+   BADGES PARA VERSIONES (CHANGELOG)
+   ---------------------------------------- */
+.version-badge {
+  display: inline-block;
+  padding: 0.2rem 0.75rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  border-radius: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  vertical-align: middle;
+  margin-left: 0.5rem;
+}
+
+.version-stable {
+  background-color: var(--keygin-success);
+  color: white;
+}
+
+.version-beta {
+  background-color: var(--keygin-warning);
+  color: white;
+}
+
+.version-deprecated {
+  background-color: var(--keygin-gray-400);
+  color: white;
+}
+
+/* ----------------------------------------
+   FOOTER
+   ---------------------------------------- */
+.site-footer {
+  border-top: 2px solid var(--keygin-gray-200);
+  margin-top: 3rem;
+  padding: 1.5rem 0;
+  color: var(--keygin-gray-500);
+  font-size: 0.85rem;
+  text-align: center;
+}
+
+/* ----------------------------------------
+   BÚSQUEDA
+   ---------------------------------------- */
+.search-input {
+  border-radius: var(--keygin-border-radius);
+  border: 1px solid var(--keygin-gray-200);
+  background-color: white;
+}
+
+.search-input:focus {
+  border-color: var(--keygin-primary);
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(10, 92, 255, 0.1);
+}
+
+/* ----------------------------------------
+   RESPONSIVE
+   ---------------------------------------- */
+@media (max-width: 768px) {
+  .main-content h1 {
+    font-size: 1.8rem;
+  }
+  
+  .main-content h2 {
+    font-size: 1.4rem;
+  }
+  
+  .main-content h3 {
+    font-size: 1.2rem;
+  }
+  
+  .version-badge {
+    display: block;
+    margin-left: 0;
+    margin-top: 0.5rem;
+    width: fit-content;
+  }
+  
+  .main-content table {
+    display: block;
+    overflow-x: auto;
+  }
+}
