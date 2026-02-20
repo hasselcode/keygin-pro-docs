@@ -4,17 +4,17 @@ gem "jekyll", "~> 4.4.1"
 
 # Gemas necesarias para remote_theme y el tema just-the-docs
 gem "jekyll-remote-theme"
-gem "jekyll-include-cache"  # Necesaria para just-the-docs
+gem "jekyll-include-cache"
+gem "webrick"  # Añadida para Ruby 3.x
 
-# Tema (ahora se maneja a través de jekyll-remote-theme)
-# No necesitas gem "just-the-docs" aquí porque lo cargas remotamente
 
 gem "minima", "~> 2.5"
 
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
   gem "jekyll-remote-theme"
-  gem "jekyll-include-cache"  # Añadida también aquí para asegurar
+  gem "jekyll-include-cache"
+  # Nota: webrick no va en plugins, es una dependencia de servidor
 end
 
 platforms :mingw, :x64_mingw, :mswin, :jruby do
