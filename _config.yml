@@ -1,14 +1,13 @@
 title: Keygin Pro Docs
 description: Documentación oficial de Keygin ERP Sync Pro
 
-theme: just-the-docs
+remote_theme: just-the-docs/just-the-docs
 
 just_the_docs:
   custom_css:
     - assets/css/custom.css
   custom_js:
     - assets/js/custom.js
-
 
 url: "https://hasselcode.github.io"
 baseurl: "/keygin-pro-docs"
@@ -27,3 +26,7 @@ footer_content: "© 2026 Hasselcode — Keygin ERP Sync Pro"
 
 # UI limpia como el demo oficial
 color_scheme: light
+
+plugins:
+  - jekyll-remote-theme
+  - jekyll-feed
