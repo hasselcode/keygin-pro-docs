@@ -14,9 +14,9 @@ Esta sección describe el procedimiento completo para instalar **Keygin ERP Sync
 
 Antes de iniciar la instalación, verifique que su entorno cumpla con los siguientes requisitos:
 
-- WordPress 6.0 o superior
+- WordPress 5.0 o superior
 - WooCommerce instalado y activo
-- PHP 7.4 o superior
+- PHP 6.9 o superior
 - Cuenta activa en Contifico
 - Credenciales API válidas
 - Permisos de administrador en WordPress

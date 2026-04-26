@@ -43,19 +43,19 @@ Esta sección describe los errores más comunes que pueden ocurrir durante la op
 
 **Síntomas**
 
-- Nuevos productos no aparecen en WooCommerce
-- Cambios en ERP no se reflejan
+- Los productos no aparecen en WooCommerce después de guardar cambios.
+- Cambios en ERP que no se reflejan en WooCommerce.
 
 **Posibles causas**
 
-- Sincronización deshabilitada
-- Cron de WordPress no ejecutándose
-- Filtros activos en ERP
+- Codigo (en Contifico) y SKU (en WooCommerce) no coinciden.
+- El producto no esta disponible para Puntos de Venta (POS) en Contifico
+- Preferencias de sincronización están desactivadas.
 
 **Solución**
 
-1. Verifique que la sincronización esté habilitada.
-2. Compruebe que WP-Cron esté funcionando.
+1. Verifique en Contifico que los productos están disponibles para todo Puntos de Venta (POS)
+2. Verifique que el valor en código de producto en Contifico sea el mismo en SKU de WooCommerce.
 3. Revise los logs del plugin.
 4. Ejecute una sincronización manual.
 

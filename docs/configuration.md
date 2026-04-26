@@ -21,7 +21,7 @@ Para activar las configuraciones de Keygin debe insertar la clave de activación
 3. Diríjase a WordPress → Keygin Sync Pro
 4. Pegue y de clic en **Activar Licencia**
 
-### Vista del formulario de activación
+### Viste del formulario de activación
 
 ![Activación del producto]({{ site.baseurl }}/assets/images/config-01.png)
 
@@ -34,7 +34,7 @@ Desde el panel administrativo de WordPress:
 1. Diríjase a **Keygin Sync Pro → Configuración**.
 2. Acceda al módulo de conexión ERP.
 
-### Vista general del panel
+### Viste general del panel
 
 ![Panel de configuración]({{ site.baseurl }}/assets/images/config-02.png)
 
@@ -102,11 +102,11 @@ Productos y Stock crean dos tareas de sincronización independientes. Stock es m
 
 ## 7. Seleccionar preferencias de sincronización
 
-Despues de escoger la bodega correspondiente:
+Despues de seleccionar la bodega de egresos de inventario:
 
 1. Seleccione dando clic sobre las preferencias que desea sincronizar
 
-> Recomendación: Si desea mantener un SEO mas organizado seleccione solo **Código** (obligatorio) y **Nombre**
+> Recomendación: Si desea mantener un SEO mas estructurado y orgánico le recomendamos seleccionar solo **Código** (obligatorio), **Precio** (obligatorio) y **Stock**, de esta manera Keygin solo mapeará los datos de mayor importancia.
 
 ### Panel de preferencias de sincronización
 

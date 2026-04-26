@@ -8,9 +8,8 @@ nav_order: 4
 
 Keygin ERP Sync Pro funciona bajo un modelo anual:
 
-- 1 licencia = 1 sitio
-- Renovación anual
-- Trial gratuito de 5 días
+- 1 licencia = 2 sitios (Producción o Staging)
+- Trial gratuito de 7 días
 
 ---
 

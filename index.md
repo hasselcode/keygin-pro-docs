@@ -47,7 +47,7 @@ Su arquitectura está pensada para:
 
 Antes de comenzar, asegúrese de contar con:
 
-- WordPress 6.9 o superior 
+- WordPress 5.0 o superior 
 - WooCommerce instalado y activo 
 - Cuenta activa en Contifico  
 - Credenciales API válidas (Api Token, Api Key y POS)  
